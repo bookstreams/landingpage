@@ -94,7 +94,14 @@
 				
 			<img class="headline-right-content animated bounceInRight" alt="iPhone" src="images/bookstreams2.png" />
 			<div id="store-buttons" class="animated bounceIn tada">
-				<div class="appstore-button"><a href="index.html#"><img src="images/appstore.png" alt="appstore" /></a></div>
+				<div class="appstore-button">
+					<span class="ribbon">
+						<small class="smallRibbon">Coming Soon</small>
+					</span>
+					<a href="index.html#">
+						<img src="images/appstore.png" alt="appstore" />
+					</a>
+				</div>
 				<div class="playstore-button"><a href="https://play.google.com/store/apps/details?id=org.bookstreams.app&hl=it"><img src="images/playstore.png" alt="playstore"/></a></div>
 			</div>
 		</div>
@@ -135,7 +142,7 @@
 						<div class="arrow-stable"><img src="images/arrow-stable.png" alt="stable"/></div>
 						
 						<div class="white-iphone">
-							<div class="video-bg"><img width="465" height="262" src="images/qr.jpg" /></div>
+							<div class="video-bg"><img width="465" height="262" src="images/QR.jpg" /></div>
 						</div>
 
 		</div><!--end container-->
@@ -314,7 +321,6 @@
   		$.ajax({
         	type: 'POST',
         	url: 'https://api.bookstreams.org/landing-page-form/',
-        	dataType: 'json',
         	cache: false,
         	data: sendInfo,
         	success: function() {
