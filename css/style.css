@@ -332,6 +332,55 @@ h3 {
 	opacity: 1 !important;
 }
 
+.ribbon {
+	position: absolute;
+	z-index: 100;
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+}
+.smallRibbon {
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFD9534F', endColorstr='#FFB52B27');
+	background-image: -moz-linear-gradient(top, #d9534f 0%, #b52b27 100%);
+	background-image: -webkit-linear-gradient(top, #d9534f 0%, #b52b27 100%);
+	background-image: linear-gradient(to bottom, #d9534f 0%, #b52b27 100%);
+	position: absolute;
+	display: block;
+	width: 100%;
+	padding: 8px 16px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 2px 0 #b52b27;
+	font-weight: bold;
+	font-size: 10px;
+	color: #fff;
+	background-color: #d9534f;
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-moz-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+	top: 10px;
+	left: 26px;
+}
+.smallRibbon:before, .smallRibbon:after {
+	bottom: -3px;
+	border-top: 3px solid #4c1210;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position: absolute
+	content: " ";	
+}
+.smallRibbon:before {
+	left: 0;
+}
+.smallRibbon:after {
+	right: 0;
+}
+
+
 
 /* ---------------- 5. OVERVIEW --------------- */
 
