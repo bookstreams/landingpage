@@ -1,0 +1,20 @@
+{
+  "name": "bookstreams-landing-page",
+  "version": "1.0.0",
+  "description": "bookstreams landing page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookstreams/landingpage"
+  },
+  "author": "mondora",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.2.0",
+    "ramda": "^0.8.0",
+    "serve-static": "^1.6.4"
+  }
+}
