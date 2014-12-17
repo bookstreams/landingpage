@@ -7,9 +7,9 @@
 	<!-- The Meta --> 
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="description" content="TODO" />
-    <meta name="keywords" content="TODO" />
-    <meta name="author" content="Mondora" />
+    <meta name="description" content="Sly Creative Agency" />
+    <meta name="keywords" content="jquery, css3, html5, animation, mobile, responsive, preview" />
+    <meta name="author" content="Doriana" />
 	
     <link rel="shortcut icon" href="images/favicon.ico" />
 	
@@ -63,13 +63,23 @@
    	
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav navbar-right" >
-					<li><a href="#intro">Home</a></li>
-					<li><a href="#overview">What is Bookstreams</a></li>
-					<li><a href="#features">Why Bookstreams</a> </li>
-					<li><a href="#screens">How it works</a></li>
-					<li><a href="#contact">Stay connected</a></li>
-				</ul>	
+			<ul class="nav navbar-nav navbar-right" >
+				<li><a href="#intro">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#screens">Screens</a> </li>
+				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#plans">Pricing & Plans</a> </li>
+				<li><a href="#contact">Contact</a></li>
+	  
+				<li class="dropdown">
+					<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					<li><a href="../index.html" target="_blank">Design WP</a></li>
+					<li><a href="http://themeforest.net/user/doriana/portfolio"  target="_blank">Theme Forest</a></li>
+					<li><a href="http://graphicriver.net/user/doriana/portfolio" target="_blank">Graphic River</a></li>
+					</ul>
+				</li>
+			</ul>	
 			</div>
 			
 		</div><!--end container-->
@@ -94,19 +104,12 @@
 				
 			<img class="headline-right-content animated bounceInRight" alt="iPhone" src="images/bookstreams2.png" />
 			<div id="store-buttons" class="animated bounceIn tada">
-				<div class="appstore-button">
-					<span class="ribbon">
-						<small class="smallRibbon">Coming Soon</small>
-					</span>
-					<a href="index.html#">
-						<img src="images/appstore.png" alt="appstore" />
-					</a>
-				</div>
-				<div class="playstore-button"><a href="https://play.google.com/store/apps/details?id=org.bookstreams.app&hl=it"><img src="images/playstore.png" alt="playstore"/></a></div>
+				<div class="appstore-button"><a href="index.html#"><img src="images/appstore-download-btn.png" alt="appstore" /></a></div>
+				<div class="playstore-button"><a href="index.html#"><img src="images/playstore-download-btn.png" alt="playstore"/></a></div>
 			</div>
 		</div>
 		<div class="dot-intro">
-			<a class="fa fa-chevron-down" href="#overview"></a>
+			<a class="icon-chevron-down" href="#overview"></a>
 		</div>
 		
 	</div><!--end #intro-->
@@ -116,11 +119,10 @@
 	<!--Overview-->
 	<div id="overview">
 		<div class="container">	
-	            <h2>WHAT IS BOOKSTREAMS</h2>        
+	            <h2>Overview</h2>        
 					<div class="row">
-						<p>A different way of reading books, based on the idea of giving each book a unique story and promoting cultural socializing through book sharing.<br />
-						All you have to do is to use the bookstreams app to add your books to the cloud library.<br />
-						Thanks to geolocation you can always find the books around you and choose your next read.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum consequat purus, vitae accumsan mi vehicula ac.<br />
+						Sed commodo euismod ante et euismod nibh commodo faucibus. Cras et libero erat. Morbi vitae auctor augue. Cum sociis natoque penatibus dismontes, nascetur ridiculus mus. Donec vitae ultricies nisl. Nunc porta sapien libero, eu ornare urna porta vel.</p>
 					</div>			
 
 						<div class="fast"><h2>fast</h2></div>
@@ -142,7 +144,7 @@
 						<div class="arrow-stable"><img src="images/arrow-stable.png" alt="stable"/></div>
 						
 						<div class="white-iphone">
-							<div class="video-bg"><img width="465" height="262" src="images/QR.jpg" /></div>
+							<div class="video-bg"><iframe width="465" height="262" src="http://www.youtube.com/embed/xFlL22Dnl4g?rel=0"></iframe></div>
 						</div>
 
 		</div><!--end container-->
@@ -153,7 +155,7 @@
 	<!--Features-->
 	<div id="features">
 		<div class="dot-features">
-			<a class="fa fa-chevron-down" href="#features"></a>
+			<a class="icon-cogs" href="#features"></a>
 		</div>
 		
 		<div class="container">
@@ -192,26 +194,28 @@
 	<!--Screens-->
 	<div id="screens">
 		<div class="dot-screens">
-			<a class="fa fa-chevron-down" href="#screens"></a>
+			<a class="icon-picture" href="#screens"></a>
 		</div>
-			<h2>HOW IT WORKS</h2> 
+			<h2>APP SCREENS</h2> 
 			
 			<div class="container">
 			
-				<p>Bookstreams is very simple, in a few steps you can assign yourself a book that someone shared with you or add a new one to the cloud library</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo odio, accumsan at vulputate vitae, accumsan at libero. Phasellus sed quam volutpat, congue orci in, tincidunt tortor. Etiam nulla dui, adipiscing et velit vel, pharetra interdum lectus.</p>
 				<br />
 				
 				<!-- SCREENS GALLERY -->
-                <div class="screen-container">
-	                <div class="view">
-	                    <img src="images/screens/screen1.png" alt="screen 1"/>
-	                </div>
-	                <div class="view">
-	                    <img src="images/screens/screen2.png" alt="screen 2"/>
-	                </div>
-	                <div class="view">
-	                    <img src="images/screens/screen3.png" alt="screen 3"/>
-	                </div>
+                <div class="view">
+                    <img src="images/screens/screen1.png" alt="screen 1"/>
+                </div>
+                <div class="view">
+<<<<<<< HEAD
+                    <img src="images/screens/2.jpg" alt="screen 2"/>
+=======
+                    <img src="images/screens/screen2.png" alt="screen 2"/>
+>>>>>>> 36ae3bb8e320eb6fa0cdc3e0c0d2204086a3b2a8
+                </div>
+                <div class="view">
+                    <img src="images/screens/screen3.png" alt="screen 3"/>
                 </div>
 				
 		    </div><!--container-->
@@ -222,34 +226,50 @@
 	<!--Contact-->	
 	<div id="contact">
 		<div class="dot-contact">
-			<a class="fa fa-chevron-down" href="#contact"></a>
+			<a class="icon-map-marker" href="#contact"></a>
 		</div>
 		<div class="contact">
-	    <h2>Stay connected</h2>
+	    <h2>Leave us a thought</h2>
 		</div>
 		
 		<div class="container">	
 
 				<div class="row" style="padding-top: 40px;">
-					<div class="contact-details-title">Leave us your email, and we'll keep you up to date!</div>
+					<div class="contact-details-title">YOUR COMPANY NAME</div>
 					<div class="contact-details">
-						<br />
+					123 Smith Boulevard, New York 23402, 555-123-4567<br />
+					office@companydomain.com<br />
+					www.companydomain.com<br />
 					</div>
 				</div>
 					
 				<div class="row">
 					<div class="contact-form">
-					<div class="">
-						<form method="POST" id="contact-form" class="form-horizontal" action="https://api.bookstreams.org/landing-page-form">
-												
-						<div class="form-group groupy1">
+					<div class="col-md-6">
+						<form method="POST" id="contact-form" class="form-horizontal" action="http://designwp.com/stark/contact-form.php" onSubmit="alert('Thank you for your feedback!');">
 						
+						<div class="form-group">
+						<label class="col-lg-2 control-label">Name</label>
 							<div class="col-lg-10">
-								<input class="form-control" id="emailContact" name="email" type="text" placeholder="Enter email address" required/>
+							<input class="form-control" type="text" name="name" required/>
 							</div>
 						</div>
 						
-						<div class="form-group groupy2">
+						<div class="form-group">
+						<label class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+							<input class="form-control" name="email" type="text" required/>
+						</div>
+						</div>
+						
+						<div class="form-group">
+						<label class="col-lg-2 control-label">Message</label>
+							<div class="col-lg-10">
+							<textarea class="form-control" name="message" rows="10" maxlength="1024" required></textarea>
+						</div>
+						</div>
+						
+						<div class="form-group">
 						<div class="col-lg-offset-2 col-lg-10">
 							<button class="btn btn-default" type="reset" >Reset</button>
 							<input type="hidden" name="save" value="contact-form">
@@ -260,11 +280,10 @@
 						</form>
 					</div><!--end coll-md-6-->
 					</div><!--end contact-form-->
-					<!-- MAP
+					
 					<div class="col-md-6">
-					 <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5465.492201525173!2d23.588573688691657!3d46.76990088622039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d6864b2db%3A0x48164b53411945c4!2sUnirii+Square!5e0!3m2!1sen!2s!4v1386589657683"></iframe>
+					<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5465.492201525173!2d23.588573688691657!3d46.76990088622039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d6864b2db%3A0x48164b53411945c4!2sUnirii+Square!5e0!3m2!1sen!2s!4v1386589657683"></iframe>
 					</div>
-					-->
 				</div><!--end row-->
 				
 		</div><!--end container-->
@@ -286,7 +305,7 @@
 						<a href="index.html#"><i class="icon-github"></i></a>
 					</span>
 				</div>
-					&copy; BookStreams. All rights reserved.
+					&copy; 2014 Your Inc. All rights reserved.
 			</div><!--end container-->
 	</div><!--end copyright-->
 	<!--End Footer (with Social Media)-->
@@ -308,34 +327,12 @@
 /*jshint unused: vars */
 
 
-
- $(function() {
+/* -- Parallax Effect Settings -- */
+$(document).ready(function() {
   "use strict";
-  
-  	$('#contact-form').submit(function(e){
-  		e.preventDefault();
-  		var sendInfo = {
-           email: $('#emailContact').val(),
-           origin: ""
-       };
-  		$.ajax({
-        	type: 'POST',
-        	url: 'https://api.bookstreams.org/landing-page-form/',
-        	cache: false,
-        	data: sendInfo,
-        	success: function() {
-				alert('Thank you for your feedback!');
-        	},
-        	error: function(xhr, status, thrownError) {
-            	alert(status);		
-        	}
-    	});	
-  	});
     $('#nav').localScroll({
         target:'#content'
     });   
-	
-	/* -- Parallax Effect Settings -- */
 	
 	//.parallax(xPosition, speedFactor, outerHeight) options:
 	//xPosition - Horizontal position of the element
@@ -345,6 +342,8 @@
 	$('#overview').parallax("50%", 0.2);
 	$('#features').parallax("50%", 0.5);
 	$('#screens').parallax("50%", 0.2);
+	$('#testimonials').parallax("50%", 0.5);
+	$('#plans').parallax("50%", 0.2);
 	$('#contact').parallax("50%", 0.5);
 });
 
